@@ -420,7 +420,7 @@ def conclude_turn_button(pos=(0,0)):
             DisplaySurf.blit(img, (600, 30*eventcounter))
         if rect2.collidepoint(pos):
             DisplaySurf.fill(BLACK)
-            game_mode = 2
+            movement_mode()
             turncounter += 1
             attacklist = []
             attackresults = []
