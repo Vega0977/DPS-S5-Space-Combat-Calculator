@@ -1,0 +1,18 @@
+remove explanation mark from a real file
+BEGIN
+self.name = [Union]
+self.team = [2]
+self.shiptype = [Basic_Corvette]
+self.static_weapon = [Small_Blue_Laser, Small_Blue_Laser]
+self.tracking_weapon = [Sentinel_Point_Defense]
+self.evasion_weapon = []
+self.docked_ships = []
+self.struc_utility = [Small_Deflector, Small_Deflector, Small_Nanocomposite]
+self.computer = [Basic_Computer]
+self.ftl = [Hyperdrive_I]
+self.thruster = [Chemical_Thruster]
+self.auxiliary = []
+self.reactor = [Fission]
+self.network = []
+self.sensor = [Radar]
+self.nsc = []

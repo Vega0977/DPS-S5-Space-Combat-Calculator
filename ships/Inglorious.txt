@@ -1,0 +1,18 @@
+remove explanation mark from a real file
+BEGIN
+self.name = [Inglorious]
+self.team = [1]
+self.shiptype = [Basic_Corvette]
+self.static_weapon = [Small_Blue_Laser, Small_Blue_Laser]
+self.tracking_weapon = []
+self.evasion_weapon = [Nuclear_Missile]
+self.docked_ships = [Basic_Strike_Craft]
+self.struc_utility = [Small_Deflector, Small_Deflector, Small_Nanocomposite]
+self.computer = [Basic_Computer]
+self.ftl = [Hyperdrive_I]
+self.thruster = [Chemical_Thruster]
+self.auxiliary = []
+self.reactor = [Fission]
+self.network = []
+self.sensor = [Radar]
+self.nsc = []

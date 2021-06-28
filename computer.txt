@@ -1,0 +1,25 @@
+strat_type, evasion_mod, evasion_base, tracking, accuracy, weapon_range, hex_range_base, mobile_tracking, mobile_evasion, power
+strat_type_is_swarm, picket, line, artillery, carrier
+                1______2_______3______4__________5
+BEGIN
+Basic_Computer =  [0, 0, 0, 0, 0, 0, 0, 0, 0, 5]
+Specialized_Swarm = [1, 5, 0, 0, 0, 0, 0, 0, 0, 10]
+Specialized_Picket = [2, 0, 0, 10, 0, 0, 0, 0, 0, 10]
+Specialized_Line = [3, 0, 0, 0, 5, 0, 0, 0, 0, 10]
+Specialized_Artillery = [4, 0, 0, 0, 0, 1, 0, 0, 0, 10]
+Specialized_Carrier = [5, 0, 0, 0, 0, 0, 0, 0, 5, 10]
+Advanced_Swarm = [1, 10, 0, 0, 0, 0, 0, 0, 0, 15]
+Advanced_Picket = [2, 0, 0, 20, 0, 0, 0, 0, 0, 15]
+Advanced_Line = [3, 0, 0, 0, 10, 0, 0, 0, 0, 15]
+Advanced_Artillery = [4, 0, 0, 0, 0, 2, 0, 0, 0, 15]
+Advanced_Carrier = [5, 0, 0, 0, 0, 0, 0, 0, 10, 15]
+Sentient_Swarm = [1, 25, 0, 0, 0, 0, 0, 0, 0, 20]
+Sentient_Picket = [2, 0, 10, 30, 0, 0, 0, 0, 0, 20]
+Sentient_Line = [3, 0, 0, 0, 20, 0, 0, 0, 0, 20]
+Sentient_Artillery = [4, 0, 0, 0, 0, 3, 0, 0, 0, 20]
+Sentient_Carrier = [5, 0, 0, 0, 0, 0, 0, 0, 15, 20]
+Psionic_Swarm = [1, 15, 0, 0, 0, 0, 1, 0, 0, 20]
+Psionic_Picket = [2, 0, 0, 40, 0, 0, 0, 0, 0, 20]
+Psionic_Line = [3, 0, 0, 10, 15, 0, 0, 0, 0, 20]
+Psionic_Artillery = [4, 0, 0, 10, 0, 2, 0, 0, 0, 20]
+Psionic_Carrier = [5, 0, 0, 0, 0, 0, 0, 10, 10, 20]

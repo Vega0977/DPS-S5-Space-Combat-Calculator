@@ -1,0 +1,9 @@
+damage, tracking, evasion, range, power, accuracy, hull_mult, armor_mult, shield_mult
+
+BEGIN
+Sentinel_Point_Defense = [20, 10, 0, 3, 5, 75, 1, .25, 1]
+Flak_Battery = [20, 50, 0, 3, 5, 75, 1, .25, 1]
+Barrier_Point_Defense = [40, 20, 0, 3, 7, 75, 1, .25, 1]
+Flak_Cannon = [50, 60, 0, 3, 7, 75, 1, .25, 1]
+Guardian_Point_Defense = [60, 30, 0, 3, 10, 75, 1, .25, 1]
+Flak_Artillery = [60, 70, 0, 3, 10, 75, 1, .25, 1]

@@ -1,0 +1,11 @@
+tech_level
+the_thrusters_produce_different_base_movements_depending_on_the_tech_level_and_type_of_ship_they're_attatched_to. these_could_be_represented
+as_+ or_- to_tech_level. 
+similarly, they_have_different_base_power_costs_to_their_thrusters
+the_power_also_scales, with_each_ship_having_its_own_increment_by_the_thruster's_tech_level
+BEGIN
+Chemical_Thruster = [1]
+Ion_Thruster = [2]
+Impulse_Thruster = [3]
+Plasma_Thruster = [4]
+Dark_Matter_Thruster = [5]

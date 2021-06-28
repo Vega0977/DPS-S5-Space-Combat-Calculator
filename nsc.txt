@@ -1,0 +1,17 @@
+type, power
+Each_NSC_type_has_a_completely_different_ability, so_I'm_just_going_to_number_them_and_figure_it_out_later.
+Names_are_sometimes_slightly_abreviated, or_standardized_on_particular_capitalization_schemes. Be_careful.
+BEGIN
+Multi-Phasic_Sensors = [1, 100]
+Damage_Control_Teams = [2, 100]
+Captain's_Ready_Room = [3, 75]
+Crew_Lounge = [4, 50]
+Fire_Control_System = [5, 100] 
+Structural_Integrity_Field = [6, 100]
+Auxiliary_Shield_System = [7, 100]
+Quantum_Thrusters = [8, 100]
+Deflector_Array = [9, 75]
+Navigational_Array = [10, 75]
+Kitchen_Sink = [11, 25]
+Stellar_Cartography = [12, 75]
+MARS_Weapon_System = [13, 100]

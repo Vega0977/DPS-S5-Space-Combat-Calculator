@@ -1,0 +1,6 @@
+sensor_range, tracking_bonus, power
+BEGIN
+Radar = [1, 0, 5]
+Gravitic = [2, 5, 10]
+Subspace = [3, 10, 15]
+Tachyon = [4, 15, 20]

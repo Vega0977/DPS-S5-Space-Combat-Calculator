@@ -1,0 +1,15 @@
+tech_level
+each_ship_has_different_power_generation_from_the_different_generators, but_the_ship_type_dictates_the_increment_between_reactor_types.
+all_you_need_is_the_ship_type_and_tech_level_to_know_the_power_generation, but_there_probably_needs_to_be_a_calculator/table_for_it_somewhere
+BEGIN
+Fission = [1]
+Fusion = [2]
+Cold_Fusion = [3]
+Antimatter = [4]
+Zero_Point_Energy = [5]
+Dark_Matter = [6]
+Graviton = [7]
+Naquadria = [8]
+Singularity = [9]
+Multidimensional = [10]
+Optimized_Dark_Matter = [11]

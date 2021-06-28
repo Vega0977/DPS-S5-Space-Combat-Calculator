@@ -1,0 +1,6 @@
+things_to_keep_track_of: slot, power, armor, shields, hullpoints
+slot_goes_small, medium, large, aux
+            1_______2______3_____4
+BEGIN
+Small_Nanocomposite = [1, 0, 50, 0, 0]
+Small_Deflector = [1, 15, 0, 50, 0]

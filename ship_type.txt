@@ -1,0 +1,18 @@
+ship_type, fleet_size, base_hex, base_evasion, hull_points
+Ship_type_is_the_basic_category, as_Corvette, Destroyer, Cruiser, Strike Cruiser, Escort Carrier, Exploration Cruiser, Battlecruiser, Battleship
+				  	                   1            2       3             4              5                 6                  7            8      
+Carrier, Dreadnought, Titan, Flagship, Juggernaut, Strike_Craft, Fighter_Craft
+   9          10        11      12         13		    14             15 
+More_data, especially_about_slots, can_be_added_as_i_get_more_information/need_for_it
+BEGIN
+Basic_Corvette = [1, 1, 4, 60, 300]
+Improved_Corvette = [1, 1, 4, 60, 400]
+Advanced_Corvette = [1, 1, 4, 60, 500]
+Basic_Destroyer = [2, 2, 3, 35, 800]
+Improved_Destroyer = [2, 2, 3, 35, 1000]
+Advanced_Destroyer = [2, 2, 3, 35, 1200]
+Basic_Cruiser = [3, 4, 3, 15, 1400]
+Improved_Cruiser = [3, 4, 3, 15, 1900]
+Advanced_Cruiser = [3, 4, 3, 15, 2400]
+Basic_Fighter_Craft = [14, 0, 15, 80, 0]
+Basic_Strike_Craft = [14, 0, 15, 80, 0]

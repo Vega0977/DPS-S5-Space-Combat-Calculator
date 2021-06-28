@@ -1,0 +1,17 @@
+type, power
+BEGIN
+Regenerative_Hull_Tissue = [1, 0]
+Nanite_Repair_System = [2, 0]
+Afterburners = [3, 10]
+Advanced_Afterburners = [4, 20]
+Reactor_Booster = [5, 0]
+Impulse_Reactor_Booster = [6, 0]
+Advanced_Reactor_Booster = [7, 0]
+Graviton_Booster = [8, 0]
+Naquadria_Booster = [9, 0]
+Singularity_Booster = [10, 0]
+Auxiliary_Fire_Control = [11, 10]
+Shield_Capictor = [12, 20]
+Improved_Bombardment = [13, 150]
+Enhanced_Bombardment = [14, 200]
+Advanced_Bombardment = [15, 250]

@@ -1,0 +1,9 @@
+tech_level, power
+BEGIN
+None = [1, 0]
+Hyperdrive_I = [2, 10]
+Hyperdrive_II = [3, 15]
+Hyperdrive_III = [4, 20]
+Jump_Drive = [5, 30]
+Psi_Jump_Drive = [6, 30]
+Flagship_Jump_Drive = [7, 50]
