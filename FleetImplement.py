@@ -654,7 +654,7 @@ def deploy_ship_load():
     deployship = shiplist[deployshipnum]
     pygame.draw.rect(DisplaySurf, WHITE, ((mapdrawwidth/2)-400, mapdrawheight, 800, 120)) #just stuck there to put them in the middle of the lower info box arae
     font = pygame.font.SysFont(None, 24)
-    img = font.render(deployship.name + ' ' + deployship.shiptype.name + ' Team: ' + deployship.team, True, BLUE)
+    img = font.render(deployship.name + ' ' + deployship.shiptype.name + ' Team: ' + str(deployship.team), True, BLUE)
     DisplaySurf.blit(img, (mapdrawwidth/2-400, mapdrawheight))
     
 def deploy_ship(pos):
@@ -818,7 +818,6 @@ def initialize(ship):
     #WEAPON TARGETS SETUP
     for weapon in ship.all_weapons: 
         ship.weapon_targets[weapon[0]] = weapon[1]
-    print(ship.all_weapons)
 
 def aura_applier():
     global shiplist
@@ -1288,10 +1287,6 @@ game_mode = 4#1 = examine, 2 = movement, 3 = attack, 4 = deployment, 5 = between
 #pseudoish commands
 #deploy_ship_load()
 current_team = 2
-shiplist[0].add(51)
-shiplist[1].add(205)
-shiplist[2].add(158)
-game_mode = 2
 
 run = True
 
