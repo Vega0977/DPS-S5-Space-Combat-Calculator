@@ -5,6 +5,8 @@ to detect ship builds that are beyond the rules of the game, and will definitely
 
 Rules for making ships:
 
+Fighter craft/strike craft are called things like Basic_Fighter_Craft and Advanced_Strike_Craft. !!: I used *advanced* not *improved* because i fucked up
+
 Weapons and components are all named with underscores, not spaces.
 
 (Important) Some things are given a full name for each possible variation. So put in Small_Blue_Laser, not Blue_Laser when

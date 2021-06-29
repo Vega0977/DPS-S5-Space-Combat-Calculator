@@ -238,10 +238,16 @@ def create_strike_craft(component, mother):
     newcraft = Ship("Strike Craft")
     if Basic_Fighter_Craft or Advanced_Fighter_Craft == component:
         newcraft.name = mother.name+"'s Fighter Craft"
-        newcraft.evasion_weapon = [component]
+        if Basic_Fighter_Craft == component:
+            newcraft.evasion_weapon = [Basic_Fighter_Weapon]
+        if Advanced_Fighter_Craft == component:
+            newcraft.evasion_weapon = [Advanced_Fighter_Component]
     if Basic_Strike_Craft or Advanced_Strike_Craft == component:
         newcraft.name = mother.name+"'s Strike Craft"
-        newcraft.static_weapon = [component]
+        if Basic_Strike_Craft == component:
+            newcraft.evasion_weapon = [Basic_Strike_Weapon]
+        if Advanced_Strike_Craft == component:
+            newcraft.evasion_weapon = [Advanced_Strike_Weapon]
     newcraft.team = mother.team
     newcraft.hex = mother.hex
     newcraft.hex_range = mother.hex_range
