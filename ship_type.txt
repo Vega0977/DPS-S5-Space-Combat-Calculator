@@ -1,6 +1,6 @@
 ship_type, fleet_size, base_hex, base_evasion, hull_points
 Ship_type_is_the_basic_category, as_Corvette, Destroyer, Cruiser, Strike Cruiser, Escort Carrier, Exploration Cruiser, Battlecruiser, Battleship
-				  	                   1            2       3             4              5                 6                  7            8      
+				       1            2       3             4              5                 6                  7            8      
 Carrier, Dreadnought, Titan, Flagship, Juggernaut, Strike_Craft, Fighter_Craft
    9          10        11      12         13		    14             15 
 More_data, especially_about_slots, can_be_added_as_i_get_more_information/need_for_it
